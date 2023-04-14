@@ -1,0 +1,16 @@
+2023-03-25 13:16:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PACIENTES" no encontrada
+Table "PACIENTES" not found; SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42102-214]
+2023-03-25 18:15:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DOMICILIO" no encontrada
+Table "DOMICILIO" not found; SQL statement:
+INSERT INTO DOMICILIO (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [42102-214]
+2023-03-25 18:16:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DOMICILIO" no encontrada
+Table "DOMICILIO" not found; SQL statement:
+INSERT INTO DOMICILIO (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [42102-214]
+2023-03-25 18:17:42 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DOMICILIO" no encontrada
+Table "DOMICILIO" not found; SQL statement:
+INSERT INTO DOMICILIO (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [42102-214]

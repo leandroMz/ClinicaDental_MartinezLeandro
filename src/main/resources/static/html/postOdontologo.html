@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../image/dientee.png">
+    <link rel="stylesheet" href="/css/odontologos/postodontologo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Registrar Odontologo</title>
+</head>
+
+<body class="hero-image">
+<header>
+    <a href="/index.html">
+
+        <img class="brand-image" src="/image/logotype.PNG" alt="logotype Clinica Dental">
+    </a>
+    <nav>
+        <ul class="list-header">
+            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Profesionales
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item asd" href="/html/getOdontologo.html">Odontologos</a></li>
+                    <li><a class="dropdown-item" href="/html/postOdontologo.html">Alta odontologo</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Registrarse
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item" href="/html/getPaciente.html">Pacientes</a></li>
+                    <li><a class="dropdown-item" href="/html/postPacientes.html">Alta paciente</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Sacar Turno
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item " href="/html/getTurno.html">Turnos</a></li>
+                    <li><a class="dropdown-item" href="/html/postTurno.html">Nuevo turno</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+</header>
+<div class="information">
+    <div class="box-one">
+        <div>
+            <h2>REGISTRAR ODONTOLOGO</h2>
+            <h4>Por favor, completa el formulario y haz click en "Cargar" para cargar un nuevo odontologo a la base de
+                datos.</h4>
+        </div>
+        <img class="image-profesional" src="/image/medico.png" alt="">
+    </div>
+    <div class="order-form">
+        <div class="container">
+            <h3>Datos del Profesional</h3>
+            <hr>
+            <form id="formulario">
+
+                <div class="form-outline">
+                    <label class="form-label" for="numeroMatricula">Nro. Matricula</label>
+                    <input type="text" id="numeroMatricula" class="form-control" placeholder="Ingrese Nro. de Matricula.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingrese Nombre.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="apellido">Apellido</label>
+                    <input type="text" id="apellido" class="form-control" placeholder="Ingrese Apellido.."/>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-block">CARGAR</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="../js/postOdontologos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+</html>

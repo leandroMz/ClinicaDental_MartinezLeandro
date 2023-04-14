@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../image/dientee.png">
+    <link rel="stylesheet" href="/css/pacientes/postpaciente.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Registrar Paciente</title>
+</head>
+
+<body class="hero-image">
+<header>
+    <a href="/index.html">
+
+        <img class="brand-image" src="/image/logotype.PNG" alt="logotype Clinica Dental">
+    </a>
+    <nav>
+        <ul class="list-header">
+            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Profesionales
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item asd" href="/html/getOdontologo.html">Odontologos</a></li>
+                    <li><a class="dropdown-item" href="/html/postOdontologo.html">Alta odontologo</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Registrarse
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item" href="/html/getPaciente.html">Pacientes</a></li>
+                    <li><a class="dropdown-item" href="/html/postPacientes.html">Alta paciente</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Sacar Turno
+                </a>
+                <ul class="dropdown-menu" style="background-color: #2d2320;">
+                    <li><a class="dropdown-item " href="/html/getTurno.html">Turnos</a></li>
+                    <li><a class="dropdown-item" href="/html/postTurno.html">Nuevo turno</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+</header>
+<div class="information">
+    <div class="box-one">
+        <div>
+            <h2>REGISTRAR PACIENTE</h2>
+            <h4>Por favor, completa el formulario y haz click en "Cargar" para cargar un nuevo Paciente a la base
+                de datos.</h4>
+        </div>
+        <img class="image-profesional" src="/image/ninera.png" alt="">
+    </div>
+    <div class="order-form">
+        <form id="formulario">
+            <div class="container-one">
+                <h3>Datos Personales</h3>
+                <hr>
+                <div class="form-outline">
+                    <label class="form-label" for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingrese Nombre.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="apellido">Apellido</label>
+                    <input type="text" id="apellido" class="form-control" placeholder="Ingrese Apellido.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="documento">Documento</label>
+                    <input type="text" id="documento" class="form-control" placeholder="Ingrese Nro. de DNI.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="fechaIngreso">fecha Alta</label>
+                    <input type="date" id="fechaIngreso" class="form-control" placeholder="Ingrese la fecha de alta.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="email">email</label>
+                    <input type="text" id="email" class="form-control" placeholder="Ingrese Email.."/>
+                </div>
+            </div>
+            <div class="container-two">
+                <h3>Datos Domicilio</h3>
+                <hr>
+                <div class="form-outline">
+                    <label class="form-label" for="calle">calle</label>
+                    <input type="text" id="calle" class="form-control" placeholder="Ingrese Calle.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="numeroCalle">numero</label>
+                    <input type="number" id="numeroCalle" class="form-control" placeholder="Ingrese Altura.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="localidad">localidad</label>
+                    <input type="text" id="localidad" class="form-control" placeholder="Ingrese Localidad.."/>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="provincia">provincia</label>
+                    <input type="text" id="provincia" class="form-control" placeholder="Ingrese Provincia...."/>
+                </div>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-success btn-block">CARGAR</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="../js/postPacientes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+</html>

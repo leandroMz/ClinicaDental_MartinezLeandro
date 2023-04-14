@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Gothic&family=Montserrat:ital,wght@0,300;1,500&display=swap');
+
+body {
+    background: url('/image/image-back.PNG') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    margin: 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-image {
+    width: 150px;
+}
+
+nav {
+    padding-top: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-header {
+    display: flex;
+}
+
+.list-header a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+    padding: .3rem 2rem;
+}
+
+.dropdown-item {
+    background-color: #095277;
+}
+
+.list-header a:hover {
+    color: rgb(210, 226, 240);
+    box-shadow: 0px 1.3px 0px 0px rgba(74, 191, 230, 1);
+}
+
+.dropdown-menu li:hover .dropdown-item {
+    color: rgb(255, 255, 255);
+    background-color: #1f1815;
+}
+
+.information {
+    background-color: #095277;
+    margin: 0rem 4rem;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+    border-radius: 0.2rem 8rem 0.2rem 8rem;
+    padding: 4rem;    
+}
+
+.box-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+
+}
+
+.box-one h2 {
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.box-one h4 {
+    padding: 1rem 0rem;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    width: 85%;
+}
+
+.box-one img {
+    width: 10%;
+    border-radius: 50%;   
+}
+.padd{
+    background-color: #0d3e56;
+    border-radius: 2rem;
+    padding: 0rem 1rem;
+    color: aliceblue;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+}
+.result{
+    background-color: rgb(171, 205, 236);
+    border-radius: 2rem;
+    padding: 0rem 1rem;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+}

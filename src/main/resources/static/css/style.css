@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Gothic&family=Montserrat:ital,wght@0,300;1,500&display=swap');
+
+body {
+    background: url('/image/image-back.PNG') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    margin: 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-image {
+    width: 150px;
+}
+
+nav {
+    padding-top: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-header {
+    display: flex;
+}
+
+.list-header a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+    padding: .3rem 2rem;
+}
+
+.dropdown-item {
+    background-color: #095277;
+}
+
+.list-header a:hover {
+    color: rgb(210, 226, 240);
+    box-shadow: 0px 1.3px 0px 0px rgba(74, 191, 230, 1);
+}
+
+.dropdown-menu li:hover .dropdown-item {
+    color: rgb(255, 255, 255);
+    background-color: #1f1815;
+}
+.information {
+    background-color: #095277;
+    margin: 0rem 4rem;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+    border-radius: 0.2rem 8rem 0.2rem 0.2rem;
+    padding: 4rem;
+}
+
+/* h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(112, 197, 207);
+    font-size: xx-large;    
+    font-weight: 900;
+} */
+
+.information h4 {
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #9ab7c6;
+}
+
+.box-one {
+    display: flex;
+}
+
+.box-one div {
+    width: 60%;
+    padding: 2rem 7rem 0rem 0rem;
+}
+
+.box-one h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 8px;
+}
+
+.box-one h4 {
+    letter-spacing: 5px;
+}
+
+.box-one img {
+    width: 550px;
+    border-top-right-radius: 100px;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+}
+
+.subtitle {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #2d2320;
+}
+
+.image-profesional {
+    width: 500px;
+    border-bottom-left-radius: 100px;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+}
+
+.box-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-prof {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.services-prof img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.services-prof ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0rem;
+}
+
+.services-prof li {
+    display: flex;
+    align-items: center;
+    color: #87aabd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    height: 3rem;
+    line-height: 1rem;
+}
+
+.services-prof h3 {
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: #c2d9e5;
+}
+
+.cinta {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+    align-items: center;
+}
+
+.sub-title-two {
+    font-size: xx-large;
+    letter-spacing: 5px;
+    width: 70%;
+}
+
+.button-style {
+    letter-spacing: 5px;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #d6e1e7;
+    background-color: #2d2320;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #171515;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+    background-color: #2d2320;
+    margin: 0.5rem 4rem;
+    box-shadow: -2px 5px 13px 2px rgba(8, 50, 64, 1);
+    border-radius: 0.2rem .2rem 0.2rem 8rem;
+    padding: 4rem;
+}
+
+.info-foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ubication-info {
+    width: 50%;
+}
+
+.ubication-info,
+.ubication-info-2 h2 {
+    text-align: center;
+}
+
+.ubication-info img {
+    width: 20em;
+    height: 15em;
+    border-radius: .5rem;
+    box-shadow: 2px 5px 13px 2px rgb(0, 0, 0);
+
+}
+
+.detail-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-info ul {
+    text-align: left;
+    font-size: x-larger;
+    font-family: 'Anton', sans-serif;
+    color: rgb(156, 184, 209);
+    padding: 1rem;
+}
+.info-foot h2{
+    color: #5c8ca5;
+    padding-bottom: 3rem;
+}
+
+
+.ubication-info-2 {
+    width: 50%;
+    text-align: center;
+}
+
+.redes-F {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem 0rem;
+}
+
+.cop {
+    text-align: center;
+    color: gray;
+}
+
+.cop a {
+    text-decoration: none;
+    color: gray;
+}
